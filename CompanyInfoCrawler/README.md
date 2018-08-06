@@ -1,24 +1,4 @@
-# README
+## Company Info Crawler
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ruby on rails application to extract generic information from the target website. HttParty is used to extract the content from the website , parse using Nokogiri and indexed using Elastic Search. The process is carried out as background task using sidekiq. Latent Dirichlet allocation is used to extract the topics from the content indexed based on the word search and most informational content is returned based on the query.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
